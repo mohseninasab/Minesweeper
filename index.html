@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Minesweeper</title>
+</head>
+
+<body>
+    <div class="tableBoard" id="tBoard">
+        <div class="newGameFrame">
+            <p>FLAGS:</p>
+            <p id="bombDemo"></p>
+            <p>&emsp;&emsp;&emsp;&emsp;&emsp;</p>
+            <button class="startbtn" onclick="newGame()">New Game</button>
+            <div class="wlDemo">
+                <p>WIN:</p>
+                <p id="winDemo">0</p>
+                <p>LOSE:</p>
+                <p id="loseDemo">0</p>
+            </div>
+        </div>
+        <table id="tableFrame"></table>
+    </div>
+    <audio id="myAudio" style="display:none;">
+        <source src="Content/Hardstyle01.wav" type="audio/ogg"> Your browser does not support the audio element.
+    </audio>
+<script type="text/javascript" src="jquery_library/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="js/javascript.js"></script>
+</body>
+
+</html>
